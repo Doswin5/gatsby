@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    width: 100%;
+    background-color: #f5f4f4;
+}
+.container {
+    width: 100%;
+    /* height: 2000px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-content: center;
+    padding: 50px 40px;
+}
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 200px;
+}
+/* .header i {
+    display: none;
+} */
+.header h3 {
+    cursor: pointer;
+}
+.header .left-hand {
+    display: flex;
+} 
+.left-hand li a{
+    margin-right: 25px;
+    color: grey;
+}
+.left-hand li a:hover {
+    color: black;
+}
+.left-hand .primary-link:link {
+    color: black;
+}
+.header .right-hand {
+    display: flex;
+} 
+.right-hand li a{
+    margin-left: 25px;
+    color: grey;
+}
+.right-hand li a:hover {
+    color: black;
+}
+.main {
+    width: 100%;
+    /* height: 1500px; */
+    /* background-color: red; */
+    margin-bottom: 40px;
+}
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.main-header h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+.main-header span {
+    padding-left: 20px;
+}
+.main-images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    /* height: 1000px; */
+}
+.main-images .row2 {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.main-images .row1 {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.row2 .image1 {
+    width: 50%;
+    height: 500px;
+    background-image: url("/images/image1and9.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image1:hover {
+    cursor: pointer;
+}
+.image1:hover h2 {
+    opacity: 1;
+}
+.row2 .image2 {
+    width: 50%;
+    height: 500px;
+    background-image: url("/images/image2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image2 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image2:hover {
+    cursor: pointer;
+}
+.image2:hover h2 {
+    opacity: 1;
+}
+.row1 .image3 {
+    width: 100%;
+    height: 500px;
+    background-image: url("/images/image3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image3 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image3:hover {
+    cursor: pointer;
+}
+.image3:hover h2 {
+    opacity: 1;
+}
+.row2 .image4 {
+    width: 50%;
+    height: 500px;
+    background-image: url("/images/image4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image4 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image4:hover {
+    cursor: pointer;
+}
+.image4:hover h2 {
+    opacity: 1;
+}
+.row2 .image5 {
+    width: 50%;
+    height: 500px;
+    background-image: url("/images/image5.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image5 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image5:hover {
+    cursor: pointer;
+}
+.image5:hover h2 {
+    opacity: 1;
+}
+.row1 .image6 {
+    width: 100%;
+    height: 500px;
+    background-image: url("/images/image6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image6 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image6:hover {
+    cursor: pointer;
+}
+.image6:hover h2 {
+    opacity: 1;
+}
+.row2 .image7 {
+    width: 50%;
+    height: 500px;
+    background-image: url("/images/image7.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image7 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image7:hover {
+    cursor: pointer;
+}
+.image7:hover h2 {
+    opacity: 1;
+}
+.row2 .image8 {
+    width: 50%;
+    height: 500px;
+    background-image: url("/images/image8.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image8 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image8:hover {
+    cursor: pointer;
+}
+.image8:hover h2 {
+    opacity: 1;
+}
+.row1 .image9 {
+    width: 100%;
+    height: 500px;
+    background-image: url("/images/image1and9.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image9 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image9:hover {
+    cursor: pointer;
+}
+.image9:hover h2 {
+    opacity: 1;
+}
+.row2 .image10 {
+    width: 50%;
+    height: 500px;
+    background-color: #1E1E1E;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 50px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+/* .image10 h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 400px;
+    justify-self: flex-end;
+    margin-bottom: 500px;
+    color: rgb(44, 43, 43);
+} */
+.image10 a {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+.image10:hover {
+    cursor: pointer;
+}
+.image10:hover a {
+    text-decoration: underline;
+}
+.row2 .image11 {
+    width: 50%;
+    height: 500px;
+    background-image: url("/images/image11.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image11 h2 {
+    opacity: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+}
+.image11:hover {
+    cursor: pointer;
+}
+.image11:hover h2 {
+    opacity: 1;
+}
+.footer {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.footer p {
+    font-size: 15px;
+}
+p .grey-text {
+    color: gray;
+}
+p .black-link {
+    color: black;
+    text-decoration: none;
+}
+.black-link:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVESNESS */
+
+/* BIG SCREENS */
+@media screen and (min-width: 769px) {
+    .header i {
+        display: none;
+    }
+}
+
+/* MOBILE PHONES */
+@media screen and (max-width: 768px) {
+    .container {
+        width: auto;
+        padding: 10px 30px;
+        /* font-size: 10px; */
+        
+    }
+    .container .header {
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .header .left-hand {
+        display: none;
+    }
+    .header .right-hand {
+        display: none;
+    }
+    .header i {
+        font-size: 28px;
+    }
+    .main {
+        width: 100%;
+    }
+    .main-header {
+        margin-bottom: 100px;
+    }
+    .main h1 {
+        font-size: 20px;
+    }
+    .main h1 span {
+        padding-left: 10px;
+    }
+    .main-images .row2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-images .image1 {
+        width: 100%;
+        height: 400px;
+    }
+    .main-images .image2 {
+        width: 100%;
+        height: 400px;
+    }
+    .main-images .image3 {
+        height: 400px;
+    }
+    .main-images .image4 {
+        width: 100%;
+        height: 400px;
+    }
+    .main-images .image5 {
+        width: 100%;
+        height: 400px;
+    }
+    .main-images .image6 {
+        height: 400px;
+    }
+    .main-images .image7 {
+        width: 100%;
+        height: 400px;
+    }
+    .main-images .image8 {
+        width: 100%;
+        height: 400px;
+    }
+    .main-images .image9 {
+        height: 400px;
+    }
+    .main-images .image10 {
+        width: 100%;
+        height: 400px;
+    }
+    .main-images .image11 {
+        width: 100%;
+        height: 400px;
+    }
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer p {
+        margin-bottom: 50px;
+    }
+
+
+}
