@@ -405,8 +405,19 @@ p .black-link {
     .header .right-hand {
         display: none;
     }
+    .header h3 {
+        color: grey;
+    }
+    .header h3:hover {
+        color: black;
+    }
     .header i {
         font-size: 28px;
+        color: grey;
+    }
+    .header i:hover {
+        cursor: pointer;
+        color: black;
     }
     .main {
         width: 100%;
@@ -456,6 +467,9 @@ p .black-link {
     }
     .main-images .image9 {
         height: 400px;
+    }
+    .image9 h2 {
+        font-size: 24px;
     }
     .main-images .image10 {
         width: 100%;
